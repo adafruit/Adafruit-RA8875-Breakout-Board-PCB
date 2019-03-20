@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -28,15 +28,15 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -6159,7 +6159,7 @@ einem neuen Namen ab.</description>
 <wire x1="2.471" y1="10.734" x2="2.278" y2="10.541" width="0.4064" layer="1"/>
 <wire x1="2.278" y1="10.541" x2="2.278" y2="10.414" width="0.4064" layer="1"/>
 </signal>
-<signal name="!INT">
+<signal name="INT">
 <contactref element="U1" pad="8"/>
 <wire x1="23.146" y1="9.268" x2="23.146" y2="6.39" width="0.254" layer="1"/>
 <wire x1="23.146" y1="6.39" x2="23.694" y2="5.842" width="0.254" layer="1"/>
@@ -6167,7 +6167,7 @@ einem neuen Namen ab.</description>
 <wire x1="27.813" y1="5.842" x2="31.75" y2="1.905" width="0.254" layer="1"/>
 <contactref element="JP1" pad="5"/>
 </signal>
-<signal name="!WAIT">
+<signal name="WAIT">
 <contactref element="U1" pad="7"/>
 <wire x1="22.646" y1="9.268" x2="22.646" y2="6.048" width="0.254" layer="1"/>
 <wire x1="22.646" y1="6.048" x2="23.487" y2="5.207" width="0.254" layer="1"/>
@@ -6787,7 +6787,7 @@ einem neuen Namen ab.</description>
 <wire x1="23.995" y1="6.35" x2="28.694" y2="6.35" width="0.254" layer="1"/>
 <wire x1="28.694" y1="6.35" x2="29.837" y2="7.493" width="0.254" layer="1"/>
 </signal>
-<signal name="SPI_CLK">
+<signal name="SCK">
 <contactref element="U5" pad="3"/>
 <wire x1="30.353" y1="8.509" x2="36.314" y2="8.509" width="0.254" layer="16"/>
 <wire x1="36.314" y1="8.509" x2="39.87" y2="12.065" width="0.254" layer="16"/>
@@ -6822,7 +6822,7 @@ einem neuen Namen ab.</description>
 <wire x1="22.987" y1="4.572" x2="21.59" y2="3.175" width="0.254" layer="16"/>
 <wire x1="21.59" y1="3.175" x2="21.59" y2="1.905" width="0.254" layer="16"/>
 </signal>
-<signal name="SPI_CS">
+<signal name="CS">
 <contactref element="U5" pad="7"/>
 <wire x1="37.076" y1="6.985" x2="42.791" y2="12.7" width="0.254" layer="16"/>
 <wire x1="42.791" y1="12.7" x2="42.791" y2="16.51" width="0.254" layer="16"/>
